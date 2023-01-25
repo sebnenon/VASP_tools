@@ -92,7 +92,7 @@ def plotIR():
     print '\tdone...'
     print "\nGenerating spectrum"
     print "="*len("Generating spectrum")
-    nItem = 1000.0
+    nItem = 1000
     result = np.zeros((nItem, 2), dtype=float)
     freq = min_freq
     lasti=0
